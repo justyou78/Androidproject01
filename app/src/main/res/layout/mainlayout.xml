@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="org.techtown.linktest01.Login">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+
+        android:layout_centerHorizontal="true"
+
+
+
+
+        android:src="@drawable/call" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignStart="@+id/textView1"
+            android:layout_centerVertical="true"
+
+            android:layout_weight="1"
+            android:background="@drawable/tedoori03"
+            android:text="Login"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/joinButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+
+            android:layout_toStartOf="@+id/button3"
+            android:layout_weight="1"
+            android:background="@drawable/tedoori03"
+            android:text="Join"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="110dp"
+        android:text="요즘 연락이 뜸했지?"
+        android:textStyle="bold|italic"
+        android:textSize="15sp" />
+
+
+</LinearLayout>
+
+
+
+
